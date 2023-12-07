@@ -1,12 +1,12 @@
 #include <Novice.h>
-
+#include <Vector2.h>
 const char kWindowTitle[] = "1365";
 
 // Windowsアプリでのエントリーポイント(main関数)
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 	// ライブラリの初期化
-	Novice::Initialize(kWindowTitle, 1280, 720);
+	Novice::Initialize(kWindowTitle, 960, 480);
 
 	// キー入力結果を受け取る箱
 	char keys[256] = {0};
